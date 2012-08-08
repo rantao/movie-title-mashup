@@ -29,8 +29,9 @@
 		2581FE9915D1F8680067807A /* Movie Title Mashup */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Movie Title Mashup"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2581FE9D15D1F8680067807A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2581FEA015D1F8680067807A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2581FEA315D1F8680067807A /* Movie Title Mashup-Prefix.pch */ = {isa = PBXFileReference; path = "Movie Title Mashup-Prefix.pch"; sourceTree = "<group>"; };
+		2581FEA315D1F8680067807A /* Movie Title Mashup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Movie Title Mashup-Prefix.pch"; sourceTree = "<group>"; };
 		2581FEA415D1F8680067807A /* Movie_Title_Mashup.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Movie_Title_Mashup.1; sourceTree = "<group>"; };
+		2581FEAB15D1F8D90067807A /* movies3.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = movies3.txt; path = "Movie Title Mashup.xcodeproj/../../FirstObjectiveCProject/obj-c-data/movies3.txt"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				2581FEA015D1F8680067807A /* main.m */,
+				2581FEAB15D1F8D90067807A /* movies3.txt */,
 				2581FEA415D1F8680067807A /* Movie_Title_Mashup.1 */,
 				2581FEA215D1F8680067807A /* Supporting Files */,
 			);
