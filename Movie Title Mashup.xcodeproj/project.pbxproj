@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2581FE9E15D1F8680067807A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2581FE9D15D1F8680067807A /* Foundation.framework */; };
+		2581FEA115D1F8680067807A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2581FEA015D1F8680067807A /* main.m */; };
+		2581FEA515D1F8680067807A /* Movie_Title_Mashup.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2581FEA415D1F8680067807A /* Movie_Title_Mashup.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2581FE9715D1F8680067807A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				2581FEA515D1F8680067807A /* Movie_Title_Mashup.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2581FE9915D1F8680067807A /* Movie Title Mashup */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Movie Title Mashup"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2581FE9D15D1F8680067807A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2581FEA015D1F8680067807A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2581FEA315D1F8680067807A /* Movie Title Mashup-Prefix.pch */ = {isa = PBXFileReference; path = "Movie Title Mashup-Prefix.pch"; sourceTree = "<group>"; };
+		2581FEA415D1F8680067807A /* Movie_Title_Mashup.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Movie_Title_Mashup.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2581FE9615D1F8680067807A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2581FE9E15D1F8680067807A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2581FE8E15D1F8680067807A = {
+			isa = PBXGroup;
+			children = (
+				2581FE9F15D1F8680067807A /* Movie Title Mashup */,
+				2581FE9C15D1F8680067807A /* Frameworks */,
+				2581FE9A15D1F8680067807A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2581FE9A15D1F8680067807A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2581FE9915D1F8680067807A /* Movie Title Mashup */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2581FE9C15D1F8680067807A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2581FE9D15D1F8680067807A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2581FE9F15D1F8680067807A /* Movie Title Mashup */ = {
+			isa = PBXGroup;
+			children = (
+				2581FEA015D1F8680067807A /* main.m */,
+				2581FEA415D1F8680067807A /* Movie_Title_Mashup.1 */,
+				2581FEA215D1F8680067807A /* Supporting Files */,
+			);
+			path = "Movie Title Mashup";
+			sourceTree = "<group>";
+		};
+		2581FEA215D1F8680067807A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2581FEA315D1F8680067807A /* Movie Title Mashup-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2581FE9815D1F8680067807A /* Movie Title Mashup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2581FEA815D1F8680067807A /* Build configuration list for PBXNativeTarget "Movie Title Mashup" */;
+			buildPhases = (
+				2581FE9515D1F8680067807A /* Sources */,
+				2581FE9615D1F8680067807A /* Frameworks */,
+				2581FE9715D1F8680067807A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Movie Title Mashup";
+			productName = "Movie Title Mashup";
+			productReference = 2581FE9915D1F8680067807A /* Movie Title Mashup */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2581FE9015D1F8680067807A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2581FE9315D1F8680067807A /* Build configuration list for PBXProject "Movie Title Mashup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2581FE8E15D1F8680067807A;
+			productRefGroup = 2581FE9A15D1F8680067807A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2581FE9815D1F8680067807A /* Movie Title Mashup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2581FE9515D1F8680067807A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2581FEA115D1F8680067807A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2581FEA615D1F8680067807A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2581FEA715D1F8680067807A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2581FEA915D1F8680067807A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Movie Title Mashup/Movie Title Mashup-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2581FEAA15D1F8680067807A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Movie Title Mashup/Movie Title Mashup-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2581FE9315D1F8680067807A /* Build configuration list for PBXProject "Movie Title Mashup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2581FEA615D1F8680067807A /* Debug */,
+				2581FEA715D1F8680067807A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2581FEA815D1F8680067807A /* Build configuration list for PBXNativeTarget "Movie Title Mashup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2581FEA915D1F8680067807A /* Debug */,
+				2581FEAA15D1F8680067807A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2581FE9015D1F8680067807A /* Project object */;
+}
